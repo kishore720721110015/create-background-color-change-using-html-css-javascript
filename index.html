@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <div id="box">
+        <div id="box1">
+            Background color :  <span id="col">Red</span>
+        </div>
+        <button id="bt" class="btn" onclick="ch(i++)">Click me!</button>
+
+    </div>    
+    <script>
+        var i=1;
+    function ch(i){
+    switch(i%7){
+    case 1:
+        document.getElementById("box").style.backgroundColor = "green";
+        document.getElementById("box").style.borderColor = "green";
+        document.getElementById("col").textContent="Green";
+        document.getElementById("bt").style.backgroundColor="green";
+        break;
+    case 2:
+        document.getElementById("box").style.backgroundColor = "blue";
+        document.getElementById("box").style.borderColor = "blue";
+        document.getElementById("col").textContent="Blue";
+        document.getElementById("bt").style.backgroundColor="blue";
+        break;
+    case 3:
+        document.getElementById("box").style.backgroundColor = " purple";
+        document.getElementById("box").style.borderColor = "purple";
+        document.getElementById("col").textContent="Purple";
+        document.getElementById("bt").style.backgroundColor="purple";
+        break;
+    case 4:
+        document.getElementById("box").style.backgroundColor = "pink";
+        document.getElementById("box").style.borderColor = "pink";
+        document.getElementById("col").textContent="Pink";
+        document.getElementById("bt").style.backgroundColor="pink";
+        break;
+    case 5:
+        document.getElementById("box").style.backgroundColor = "grey";
+        document.getElementById("box").style.borderColor = "grey";
+        document.getElementById("col").textContent="Grey";
+        document.getElementById("bt").style.backgroundColor="grey";
+        break;
+    case 6:
+        document.getElementById("box").style.backgroundColor = "red";
+        document.getElementById("box").style.borderColor = "red";
+        document.getElementById("col").textContent="Red";
+        document.getElementById("bt").style.backgroundColor="red";
+        break;
+   }
+}
+    </script>
+</body>
+</html>

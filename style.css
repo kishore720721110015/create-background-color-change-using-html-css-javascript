@@ -1,0 +1,33 @@
+#box{
+    display: grid;
+    justify-content: center;
+    margin-top: 250px;
+    background-color: red;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#box1{
+    border: 1px solid black;
+    padding: 5px 60px;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+    font: bold;
+    font-size: 15px;
+}
+.btn{
+    margin-top: 25%;
+    width: 100px;
+    margin-left: 75px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+#col{
+    color: cadetblue;
+    font-size: 15px;
+}
